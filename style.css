@@ -15,7 +15,6 @@
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Finlandica', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-size: 64px;
   font-weight: 400;
@@ -28,7 +27,6 @@
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Finlandica', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 30px;
@@ -40,7 +38,6 @@
   top: 69%;
   left: 50%;
   transform: translate(-50%, -50%); 
-  font-family: 'Finlandica', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -48,7 +45,7 @@
 }
 /* pinkish background */
 .colors{
-  background-color: #ffdddd!important;
+  background-color: #f2e1e1!important;
   margin-top: 0px ;
   filter: grayscale(50%);
   width: 100%;
@@ -56,7 +53,7 @@
   text-align: center;
 }
 .wbutton{
-border: none;
+    border: none;
     display: inline-block;
     vertical-align: middle;
     overflow: hidden;
@@ -71,6 +68,12 @@ border: none;
     border-radius: 4px;
     margin-bottom: 64px; 
     cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+.wbutton:hover{
+  background-color: #ccc;
+  color: black;
+
 }
 body{
   margin:0%;
@@ -93,6 +96,8 @@ body{
 .img{
   margin-left: 30px;
   margin-right: 30px;
+  filter: grayscale(50%);
+  border-radius: 4px;
 }
 .container{
   position: relative;
@@ -109,7 +114,6 @@ body{
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Finlandica', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-size: 64px;
   font-weight: 400;
@@ -119,13 +123,11 @@ body{
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: 'Finlandica', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 30px;
 }
 .title{
-  font-family: 'Finlandica', sans-serif;
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
   color: #757575!important;
@@ -135,10 +137,6 @@ body{
 .foto{
   width: 100%;
   border-radius: 4px;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
 }
 .mess{
   width: 75%;
@@ -148,19 +146,133 @@ body{
 }
 .p1{
 width: 50%;
-font-family: 'Finlandica', sans-serif;
 font-family: 'Raleway', sans-serif;
 float: left;
+background-color: #f2e1e1;
+line-height: 35px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .p1>h2{
 font-weight: 400;
 }
 #titull{
-  font-family: 'Finlandica', sans-serif;
   font-family: 'Raleway', sans-serif;
-  font-size: auto;
+  font-size: 35px;
   color: #757575!important;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
-  margin-top: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px ;
 }
+.nav{
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  color: black;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.744) ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.HOME{
+  /* width: 25%; */
+  /* padding-top: 10%;
+  padding-right: 33.3%; */
+  text-decoration: none;
+  /* position: sticky; */
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  /* padding-top: 40px; */
+}
+.US{
+  /* width: 25%;
+  padding-top: 10%; */
+  text-decoration: none;
+  position: sticky;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+.WEDDING{
+  /* width: 25%;
+  padding-top: 10%;
+  padding-left: 33.3%; */
+  text-decoration: none ;
+  position: sticky;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+.RSVP{
+  text-decoration: none;
+  position: sticky;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+.backgroundc{
+  color: #000!important;
+  background-color: #ffdddd!important;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  line-height: 40px;
+  height: 100vh;
+  
+}
+.backgroundContainer{
+  background-color: #ffdddd!important;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  letter-spacing: 4px;
+  justify-content: center;
+  flex-direction: column;
+  filter: grayscale(0)
+  
+}
+.titleBck{
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  
+}
+.pull{ 
+  color: #fff!important;
+  background-color: #f88179!important;
+  border-radius: 4px;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 65px;
+  padding-right: 65px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+}
+.pull:hover{
+  background-color: #757575 !important;
+  color: #000 !important;
+}
+.fundi{
+color: #fff!important;
+background-color: #000!important;
+padding-top: 32px!important;
+padding-bottom: 16px!important;
+text-align: center!important;
+display: block;
+box-sizing: inherit;
+display: block;
+font-family: "Raleway", sans-serif;
+margin-top: 0%;
+height: 50px;
+}
+
